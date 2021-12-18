@@ -49,8 +49,17 @@ ArrayList Methods:
 
 	remove(int index): removes the element at the given index
 
-	remove(Object): removes the given object from arraylist
+	remove(Object): removes the given object from arraylist, returns boolean
 
+	clear(): remove all the elements of the arraylist, size will be 0
+
+	indexOf(Data): returns the first matching element's index number, returns int
+
+	lastIndexOf(Data): returns the last matching element's index number, returns int
+
+	contains(Data): returns true if the element is contained in the arraylist, otherwise returns false
+
+	equals(ArrayList): returns true if two arraylists are equal (same elements in same order), otherwise returns false
 
 
 
